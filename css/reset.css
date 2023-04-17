@@ -1,0 +1,27 @@
+/*去除边距*/
+body, div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,
+legend,input,textarea,button,p,blockquote,th,to{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* 让html网页变灰的代码 */
+    /* filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter:grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter:grayscale(100%);
+    -webkit-filter: grayscale(1); */
+    text-align: center;
+    min-width: 1226px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img,input,button{
+    border: none;
+    vertical-align: middle;
+}
